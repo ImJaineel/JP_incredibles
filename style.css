@@ -4,6 +4,9 @@ body {
 
 #construction {
     height: 250;
+    border: 10px solid black;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 #blogs {
