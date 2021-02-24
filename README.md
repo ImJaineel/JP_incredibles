@@ -1,2 +1,3 @@
-# JP_incredibles
-My Website repository
+# JPincredibles
+
+My website repository

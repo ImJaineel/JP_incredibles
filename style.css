@@ -1,0 +1,27 @@
+body {
+    background-color: wheat;
+}
+
+#construction {
+    height: 250;
+}
+
+#blogs {
+    background-color: aquamarine;
+    /*border: 2px solid black;*/
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#letslearn {
+    background-color: aqua;
+    /*border: 2px solid black;*/
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#project {
+    /*background-color: cornflowerblue;*/
+    border-radius: 5px;
+    margin-left: 10px;
+}
