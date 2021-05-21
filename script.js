@@ -17,3 +17,7 @@ function binary_github() {
 function calc_github() {
     location.href="https://github.com/JPetiwale/multipurpose-calculator";
 }
+
+function my_resume() {
+    location.href="my_resume.pdf";
+}
