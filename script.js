@@ -21,3 +21,23 @@ function calc_github() {
 function my_resume() {
     location.href="my_resume.pdf";
 }
+
+function aboutme() {
+    location.href="https://aboutme.jpincredibles.cf";
+}
+
+function student(){
+    location.href="https://student.jpincredibles.cf";
+}
+
+function portfolio(){
+    location.href="https://portfolio.jpincredibles.cf";
+}
+
+function netflix() {
+    location.href="https://jp-netflix-clone.netlify.app";
+}
+
+function exam_sheduler() {
+    location.href="https://github.com/JPetiwale/Exam_Scheduler";
+}

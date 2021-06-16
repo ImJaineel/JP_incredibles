@@ -9,6 +9,27 @@ body {
     overflow: hidden;
 }
 
+#aboutme {
+    /*border: 2px solid black;*/
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#student {
+    /*border: 2px solid black;*/
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#portfolio {
+    /*border: 2px solid black;*/
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #blogs {
     background-color: aquamarine;
     /*border: 2px solid black;*/
@@ -23,7 +44,7 @@ body {
     margin-left: 10px;
 }
 
-#project {
+#project #netflix {
     /*background-color: cornflowerblue;*/
     border-radius: 5px;
     margin-left: 10px;
