@@ -20,54 +20,69 @@
   <style>
     body {background-color: wheat}
 
-    fieldset {background-color: whitesmoke}
+    fieldset {
+      background-color: whitesmoke;
+      border-radius: 5px;
+      margin-left: 50px;
+      margin-right: 50px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+
+    fieldset:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
 
     #construction {
-        height: 250;
-        border: 10px solid black;
-        border-radius: 50%;
-        overflow: hidden;
+      height: 250;
+      border: 10px solid black;
+      border-radius: 50%;
+      overflow: hidden;
     }
 
     #aboutme {
-        /*border: 2px solid black;*/
-        border-radius: 5px;
-        margin-left: 10px;
-        margin-right: 10px;
+      /*border: 2px solid black;*/
+      border-radius: 5px;
+      margin-left: 10px;
+      margin-right: 10px;
     }
 
     #student {
-        /*border: 2px solid black;*/
-        border-radius: 5px;
-        margin-left: 10px;
-        margin-right: 10px;
+      /*border: 2px solid black;*/
+      border-radius: 5px;
+      margin-left: 10px;
+      margin-right: 10px;
     }
 
     #portfolio {
-        /*border: 2px solid black;*/
-        border-radius: 5px;
-        margin-left: 10px;
-        margin-right: 10px;
+      /*border: 2px solid black;*/
+      border-radius: 5px;
+      margin-left: 10px;
+      margin-right: 10px;
     }
 
     #blogs {
-        background-color: aquamarine;
-        /*border: 2px solid black;*/
-        border-radius: 5px;
-        margin-right: 10px;
+      background-color: aquamarine;
+      /*border: 2px solid black;*/
+      border-radius: 5px;
+      margin-right: 10px;
     }
 
     #letslearn {
-        background-color: aqua;
-        /*border: 2px solid black;*/
-        border-radius: 5px;
-        margin-left: 10px;
+      background-color: aqua;
+      /*border: 2px solid black;*/
+      border-radius: 5px;
+      margin-left: 10px;
     }
 
     #project #netflix {
-        /*background-color: cornflowerblue;*/
-        border-radius: 5px;
-        margin-left: 10px;
+      /*background-color: cornflowerblue;*/
+      border-radius: 5px;
+      margin-left: 10px;
+    }
+
+    @media print {
+      footer {page-break-after: always;}
     }
   </style>
 </head>
